@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Icon for website -->
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./assests/logo/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assests/logo/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assests/logo/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./assests/logo/favicon/site.webmanifest">
+
+    <title>Solution Glitch | Home</title>
+
+    <!-- Linking Fontawesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+    <!-- Linking Flickity -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- >>>Change the header bg and add the gif remove the text -->
+    <header>
+        <div class="banner"></div>
+
+        <!-- Navigation Bar -->
+        <nav>
+            <!-- >>>Change Home with the logo -->
+            <a href="#">
+                <img class="logo" src="./assests/logo/Solution.jpg" alt="Logo Apni Kaksha">
+            </a>
+            <a class="menu-btn" href="#">Home</a>
+            <a class="menu-btn" href="#">Code </a>
+            <a class="menu-btn" href="#">Projects</a>
+            <a class="menu-btn" href="#">Community</a>
+
+            <a class="menu-btn flex-align-left" href="#">Login/SignUp</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2><span>Code</span></h2>
+            <!-- Courses Carousel -->
+            <div class="carousel js-flickity" data-flickity='{"wrapAround": true }'>
+                <div class="carousel-cell"><img src="./assests/ind.GIF">
+                    </img></div>
+                <div class="carousel-cell"><img src="./assests/grid.GIF"></img>
+                </div>
+                <div class="carousel-cell"><img src="./assests/wifi.GIF"></img></div>
+                <div class="carousel-cell"><img src="./assests/matric.GIF"></img></div>
+
+            </div>
+        </section>
+        <section>
+            <h2><span>Some videos </span></h2>
+            <!-- College Review Caraousel -->
+            <div class="carousel js-flickity" data-flickity-options='{ "wrapAround": true }'>
+                <div class="carousel-cell iframe-container"><iframe
+                        src="https://www.youtube.com/embed/5IWvoVMO9So" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="carousel-cell iframe-container"><iframe 
+                        src="https://www.youtube.com/embed/3UXeUQtm6Ug" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe></div>
+                <div class="carousel-cell iframe-container"><iframe 
+                        src="https://www.youtube.com/embed/zOdG12r1g_A" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe></div>
+            </div>
+        </section>
+        <section class="study_material">
+            <h2><span>Projects</span></h2>
+            <!-- Notes Carousel -->
+            <div class="carousel js-flickity" data-flickity-options='{ "wrapAround": true }'>
+                <div class="carousel-cell">
+                    <a target="_blank" ><img
+                            class="img-responsive"
+                            src="./assests/Bantayog Light.gif"></a>
+                </div>
+                <div class="carousel-cell">
+                    <a target="_blank"
+                       ></a><img
+                            class="img-responsive"
+                            src="./assests/Know you wifi password with python.gif" alt=""></a>
+                </div>
+                <div class="carousel-cell">
+                    <a target="_blank" ><img
+                            class="img-responsive"
+                            src="./assests/MAKE YOUR OWN JARVIS.gif"></a>
+                </div>
+                
+        </section>
+        <section class="our_founder">
+            <h2><span>Our Founder</span></h2>
+
+            <img class="profile_img" src="./assests/profile/mds.jpg" alt="This is Md Shamsuzzama siddique">
+            <h3 class="profile_name">MD. SHAMSUZZAMA SIDDIQUE</h3>
+            <div class="sm-handle">
+                <a class="yt_handle" href="https://www.youtube.com/channel/UCOyaQ1mXKsj3_tixZjkQeAw/channels"
+                    target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube fa-lg"></i>YouTube</a>
+                <a class="linkdn_handle" href="https://www.linkedin.com/in/md-shamsuzzama-siddique-baa9a5213/" target="_blank"
+                    rel="noopener noreferrer"><i class="fab fa-linkedin fa-lg"></i>LinkedIn</a>
+                <a class="insta_handle" href="https://www.instagram.com/md_shamsh_20/" target="_blank"
+                    rel="noopener noreferrer"><i class="fab fa-instagram fa-lg"></i>Instagram</a>
+                    <a class="telegram_handle" href="https://t.me/+t9l3PHBg1VY0OGVl" target="_blank"
+                    rel="noopener noreferrer"><i class="fab fa-telegram fa-lg"></i>telegram</a>
+            </div>
+
+
+        </section>
+    </main>
+
+    <footer>
+        <a href="#">FAQ</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Terms of Use</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Refund Policy</a>
+        <a href="#" class="flex-align-left">&copy; 2022 | Solution Glitch</a>
+    </footer>
+    <!-- Flickity JS files -->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+</body>
+
+</html>
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
